@@ -3,9 +3,9 @@
   "version": "1.1.5",
   "description": "This package is designed to bypass puppeteer's bot-detecting captchas such as Cloudflare. It acts like a real browser and can be managed with puppeteer.",
   "type": "module",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "nowsecure-test": "node ./test/nowsecure.test.js"
   },
   "keywords": [
     "cf-bypass",

@@ -30,7 +30,7 @@ sudo apt-get install xvfb
 ```js
 const start = async () => {
     var { puppeteerRealBrowser } = await import('puppeteer-real-browser')
-    const { page, browser } = await puppeteerRealBrowser({})
+    const { page, browser } = await puppeteerRealBrowser()
 }
 ```
 ### Module
@@ -38,7 +38,7 @@ const start = async () => {
 ```js
 import {puppeteerRealBrowser} from 'puppeteer-real-browser'
 
-const { page, browser } = await puppeteerRealBrowser({})
+const { page, browser } = await puppeteerRealBrowser()
 
 ```
 
